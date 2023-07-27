@@ -1,0 +1,30 @@
+.card-header h1,h2{
+    font-family: 'Borel', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+.card-header img{
+    font-family: 'Borel', cursive;
+    border-radius: 2rem;
+    max-width: 500px;
+    display: block; /* Agregamos display: block; para permitir el ajuste del margen automático */
+    margin: 0 auto; /* Agregamos margen automático para centrar la imagen horizontalmente */
+}
+.text-center{
+    font-family: 'Borel', cursive;
+    font-size: 2rem;
+    list-style: inside;
+}
+.text-center img{
+    font-family: 'Borel', cursive;
+    border-radius: 2rem;
+}
+.link{
+    font-family: 'Borel', cursive;
+    transition: 0.4s linear;
+    color: #000;
+}
+.link:hover{
+    font-family: 'Borel', cursive;
+    color: #ff9100;
+}
